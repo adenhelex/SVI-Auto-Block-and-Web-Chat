@@ -12,8 +12,13 @@ export function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // Allow login routes
-  if (pathname === '/login' || pathname.startsWith('/api/login')) {
+  // Allow auth routes (login/logout) without session
+  if (
+    pathname === '/login' ||
+    pathname === '/logout' ||
+    pathname.startsWith('/api/login') ||
+    pathname.startsWith('/api/logout')
+  ) {
     return NextResponse.next();
   }
 

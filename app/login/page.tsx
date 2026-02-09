@@ -39,9 +39,7 @@ export default function LoginPage() {
           <Link href="/" className="top-nav-link">
             SVI IP blocklist manager
           </Link>
-          <Link href="/chat" className="top-nav-link">
-            Chat
-          </Link>
+          <Link href="/chat" className="top-nav-link">Chat</Link>
         </div>
       </nav>
 

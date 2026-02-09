@@ -218,9 +218,8 @@ export default function IpListPage() {
           <Link href="/" className="top-nav-link active">
             SVI IP blocklist manager
           </Link>
-          <Link href="/chat" className="top-nav-link">
-            Chat
-          </Link>
+          <Link href="/chat" className="top-nav-link">Chat</Link>
+          <Link href="/logout" className="top-nav-link">Logout</Link>
         </div>
       </nav>
 

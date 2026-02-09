@@ -10,12 +10,9 @@ export default function LogicPage() {
           <Link href="/" className="top-nav-link">
             SVI IP blocklist manager
           </Link>
-          <Link href="/chat" className="top-nav-link">
-            Chat
-          </Link>
-          <Link href="/logic" className="top-nav-link active">
-            Logic
-          </Link>
+          <Link href="/chat" className="top-nav-link">Chat</Link>
+          <Link href="/logout" className="top-nav-link">Logout</Link>
+          <Link href="/logic" className="top-nav-link active">Logic</Link>
         </div>
       </nav>
 

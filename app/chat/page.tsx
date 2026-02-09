@@ -185,9 +185,8 @@ export default function ChatPage() {
           <Link href="/" className="top-nav-link">
             SVI IP blocklist manager
           </Link>
-          <Link href="/chat" className="top-nav-link active">
-            Chat
-          </Link>
+          <Link href="/chat" className="top-nav-link active">Chat</Link>
+          <Link href="/logout" className="top-nav-link">Logout</Link>
           <div className="chat-gpt-model-wrap">
             <label htmlFor="ai-provider" className="chat-gpt-model-label">Model</label>
             <select
